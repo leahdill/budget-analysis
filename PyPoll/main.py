@@ -24,3 +24,11 @@ with open(csvpath) as csvfile:
         voter_id.append(row[0])
         county.append(row[1])
         name.append(row[2])
+
+        
+# Totals by candidate
+total_votes = len(voter_id)
+total_for_khan = len(khan_votes)
+total_for_correy = len(correy_votes)
+total_for_li = len(li_votes)
+total_for_otooley = len(otooley_votes)
